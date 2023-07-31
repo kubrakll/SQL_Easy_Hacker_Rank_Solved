@@ -1,0 +1,1 @@
+# SQL_Easy_Hacker_Rank_Solved
