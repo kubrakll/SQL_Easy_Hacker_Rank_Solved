@@ -1,0 +1,8 @@
+Given the CITY and COUNTRY tables, query the names of all cities where the CONTINENT is 'Africa'.
+
+MySql;
+select c.Name 
+from City c
+inner join Country d
+on c.CountryCode=d.Code
+where d.Continent='Africa'
